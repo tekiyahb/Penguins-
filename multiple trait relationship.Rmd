@@ -1,0 +1,8 @@
+## Relationship between multiple traits 
+relationship between body mass and flipper length 
+
+```{r}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = body_mass_g, y = flipper_length_mm, color = species)) + 
+  geom_smooth(mapping = aes(x = body_mass_g, y = flipper_length_mm))
+```

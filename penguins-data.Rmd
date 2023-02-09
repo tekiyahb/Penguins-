@@ -1,0 +1,5 @@
+## Data 
+Palmerpenguins data set is provided by Dr. Allison Kristen Gorman. The goal of palmerpenguins is to provide a great dataset for data exploration & visualization
+
+![](https://wildnet.org/wp-content/uploads/2018/03/Susan-McConnell-Penguin-6.jpg)
+
