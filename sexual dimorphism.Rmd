@@ -1,0 +1,9 @@
+## Sexual dimorphism 
+Sexual dimprphism is distinct difference in size or appearance between the sexes of an animal in addition to difference between the sexual organs themselves.
+what traits are sexually dimprohic in penguins ? (hint: use facet wrap)
+```{r}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = body_mass_g, y = flipper_length_mm, color = species)) + 
+  geom_smooth(mapping = aes(x = body_mass_g, y = flipper_length_mm)) + 
+  facet_wrap(~species)
+```
